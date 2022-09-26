@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 761 94" width="761" height="94">
+	<title>wave-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="608800" y1="-2039.689" x2="608800" y2="18612">
+			<stop offset="0" stop-color="#57bbc1" stop-opacity="0.25" />
+			<stop offset="100" stop-color="#015871"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: url(#grd1) } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M761 94L0 94L0 57.44C137.46 57.44 185.02 0 375.27 0C566.04 -0.12 613.08 57.44 761 57.44C761 71.21 761 94 761 94Z" />
+</svg>

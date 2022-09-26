@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="startWindow">
+<button class="startGame">Start Game</button>
+</div>
+<div class="game hideGame">
+<div class="wrapper">
+
+    <div class="wrapper__game">
+        <div class="wrapper__game-board"></div>
+    </div>
+    <div class="wrapper__count">
+        <div class="wrapper__count-score"> Score: <span class="wrapper__count-count"> 0</span></div>
+        <div class="wrapper__count-digitalField">
+            <div class="wrapper__count-display">
+                <form action="">
+                    <input type="text" class="display" placeholder="0">
+                </form>
+            </div>
+            <div class="wrapper__count-buttons">
+                <div class="wrapper__count-digits">
+                    <button class="button number">1</button>
+                    <button class="button number">2</button>
+                    <button class="button number">3</button>
+                    <button class="button number">4</button>
+                    <button class="button number">5</button>
+                    <button class="button number">6</button>
+                    <button class="button number">7</button>
+                    <button class="button number">8</button>
+                    <button class="button number">9</button>
+                    <button class="button number zero">0</button>
+                    <button class="button delete">Delete</button>
+                </div>
+                <div class="controls">
+                    <button class="button clear"><span>Clear</span></button>
+                    <button class="button enter"><span>Enter</span></button>
+                </div>
+                <!--                <button class="restart">Начать новую игру</button>-->
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="water">
+</div>
+
+<div class="modal-window hide">
+    <div class="modal-window__content">
+        <div class="modal-window__content-heading" >Игра окончена</div>
+        <div>Ваш счет: <span class="score"></span></div>
+        <div>Количество ходов: <span class="score"></span></div>
+        <div>Количество правильных ответов: <span class="score"></span></div>
+        <button class="restart">Начать новую игру</button>
+    </div>
+</div>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
