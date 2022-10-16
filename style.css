@@ -251,7 +251,18 @@ width:13rem;
     .drop{
         font-size: 4rem;
     }
-  
+    .wrapper__count-buttons {
+        flex-direction: column;
+    }
+    .button {
+        width: 5rem;
+        height: 4rem;
+        font-size: 3.5rem;
+    }
+    .delete {
+        width: 10rem;
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 480px ) {
     html{
